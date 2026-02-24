@@ -18,10 +18,6 @@ jobs:
       - run:
           name: "Run Tests"
           command: python Test.py
-      - run:
-          name: "Say hello"
-          command: echo "Hello, World!"
-
 workflows:
   build_and_test:
     jobs:
